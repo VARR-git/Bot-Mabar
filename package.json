@@ -1,0 +1,19 @@
+{
+  "name": "apa-aja",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bot Discord pribadi untuk tetap berada di voice channel.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@discordjs/voice": "0.19.2",
+    "discord.js": "14.27.0",
+    "dotenv": "18.0.8"
+  }
+}
